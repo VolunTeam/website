@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset = "etf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A web-based platform that allows for volunteers and organizations to connect with each other easily">
+        <meta name="keywords" content="volunteam, volunteer team, volunteer group, volunteer, volunteers, volunteering, volunteer opportunities, volunteering opportunites, organizations, volunteer organizations, volunteering organizations, volunteering near me, vonlunteer near me, find volunteering, volunteer search, find volunteer opportunities">
+        <meta name="author" content="VolunTeam">
+        <meta name="theme-color" content="ffffff">
+        <title>VolunTeam | Welcome</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- import jQuery library for "scroll to top" button-->
+        <link rel="icon" href="../img/Browser Icon.png" alt="VolunTeam browser icon">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> <!-- import google font Lato -->
+    <head>
+
+    <body>
+        <header>
+            <div id="progress-bar"> </div>
+            <span id="branding">
+                <a href="index.html"> <img src="../img/Website Header.png" alt="VolunTeam logo" href="index.html"> </a>
+            </span>
+            <nav>
+                <ul>
+                    <li class="current"> <a href="index.html">Home</a> </li>
+                    <li> <a href="orgs.html">Browse Organizations</a> </li>
+                    <li> <a href="login.html">Login</a> </li>
+                    <li> <a href="signup.html">
+                        <div id="nav-button-container">
+                            <a href="signup.html">
+                                <button id="nav-button">
+                                    <p>Get Started</p>
+                                </button>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="showcase">
+            <div class="container">
+                <h1>Find the Perfect Volunteer Opportunity for You</h1>
+                <p>Scroll down to learn more!</p>
+           </div>
+        </section>
+
+        <section class="about1">
+            <div class="left-60-container">
+                <h1>What is VolunTeam?</h1>
+                <br>
+                <p>VolunTeam is a web-based platform that allows volunteers and volunteer organizations to connect with each other easily.</p>
+            </div>
+            <img src="../img/Connect Icon.png" alt="Connect icon"> <!--image from thenounproject.com -->
+        </section>
+
+        <section class="about2">
+            <div class="right-60-container">
+                <h1>Contact Organizations Directly</h1>
+                <br>
+                <p>VolunTeam allows for volunteers to communicate directly with the organizations they are interested in volunteering for or just want to learn more about.</p>
+            </div>
+            <img src="../img/Communicate Icon.png" alt="Communicate icon"> <!--image from thenounproject.com -->
+        </section>
+
+        <section class="about1">
+            <div class="left-60-container">
+                <h1>Schedule Volunteering Sessions</h1>
+                <br>
+                <p>VolunTeam also allows organizations to post the days and times they are available for volunteers to choose from and sign up for.</p>
+            </div>
+            <img src="../img/Schedule Icon.png" alt="Schedule icon"> <!--image from thenounproject.com -->
+        </section>
+
+        <section class="about2">
+            <div class="right-60-container">
+                <h1>Volunteer With Your Team</h1>
+                <br>
+                <p>Being able to volunteer with people you know is important. That's why VolunTeam makes it possible for you to create a team and invite your friends to volunteer with you!<p/>
+            </div>
+            <img src="../img/Team Icon.png" alt="Team icon"> <!--image from thenounproject.com -->
+        </section>
+
+        <section class="about1">
+            <div class="left-60-container">
+                <h1>Have Everything in One Place</h1>
+                <br>
+                <p>VolunTeam keeps everything organized for you. From your volunteer account, you can see everything from organizations you have contacted to the teams you are in to past and future volunteer sessions.</p>
+            </div>
+            <img src="../img/Profile Icon.png" alt="Profile icon"> <!--image from thenounproject.com -->
+        </section>
+
+        <section class="get-started">
+            <div class="container">
+                <h1>Click on the button below to get started today!</h1>
+            <div>
+            <div class="button-container">
+                <div class="big-button">
+                    <a href="signup.html">
+                    <p>Get Started</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <!--
+        <section class="mission">
+            <h1>Our Mission</h>
+            <p>Through our innovative volunteering solutions, VolunTeam empowers students and service organizations to transform communities.</p>
+        </section>
+    -->
+
+        <button id="scroll-to-top" title="Scroll to top">
+            <img src="../img/Caret Icon.png" alt="Scroll to top"> <!--image from thenounproject.com -->
+        </button>
+
+        <footer>
+            <div class="left-33-container">
+                <div class="footer-container" id="footer-logo">
+                    <a href="index.html"> <img src="../img/Website Header.png" alt="VolunTeam logo" href="index.html"> </a>
+                </div>
+                <p>Copyright &copy; 2020. VolunTeam</p>
+                <h2>For more resources, visit <a href="help.html"><u>Help</u></a><h2>
+            </div>
+            <div class="center-33-container">
+                <h1>Contact Us:</h1>
+                <h3>Email: <u>info@volun.team</u></h3>
+            </div>
+            <div class="right-33-container">
+                <h1>Follow Us:</h1>
+                <div id="socials">
+                    <a href="https://www.instagram.com/volun.team/" target="_blank"> <img src="../img/Instagram Logo.png" alt="Instagram logo"/> </a>
+                    <!-- <a href="facebook.com" target="_blank"> <img src="/Facebook Logo.webp" alt="Facebook logo"> </a> -->
+                    <a href="https://twitter.com/VolunDotTeam" target="_blank"> <img src="../img/Twitter Logo.png" alt="Twitter logo"> </a>
+                </div>
+            </div>
+        </footer>
+
+<!-- JAVASCRIPT -->
+
+        <script>
+            // javascript for horizontal scroll indicator
+            window.onscroll = function()
+            {
+                var position = document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                var scroll = position * 100 / height;
+                document.getElementById("progress-bar").style.width = scroll + "%";
+            }
+
+            // javascript for the "scroll to top" button
+            $(window).scroll(function()
+            {
+                var height = $(window).scrollTop();
+                if (height > 100)
+                {
+                    $('#scroll-to-top').fadeIn();
+                } else
+                {
+                    $('#scroll-to-top').fadeOut();
+                }
+            });
+            $(document).ready(function()
+            {
+                $("#scroll-to-top").click(function(event)
+                {
+                    event.preventDefault();
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                    return false;
+                });
+            });
+        </script>
+    </body>
+
+</html>

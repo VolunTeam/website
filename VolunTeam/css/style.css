@@ -1,0 +1,452 @@
+/* Global */
+.container
+{
+   width: 80%;
+   margin: auto;
+   overflow: hidden;
+}
+
+.left-60-container
+{
+   width: 60%;
+   float: left;
+   overflow: hidden;
+   padding: 0;
+   margin: 3% 0 0 5%;
+}
+
+.right-60-container
+{
+   width: 60%;
+   float: right;
+   overflow: hidden;
+   padding: 0;
+   margin: 3% 5% 0 0;
+}
+
+.left-33-container
+{
+    width: 33.3%;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.center-33-container
+{
+    width: 33.3%;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.right-33-container
+{
+    width: 33.4%;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.button-container
+{
+    width: 100%;
+    text-align: center;
+}
+
+.big-button
+{
+    height: 8em;
+    width: 20em;
+    background: #545454;
+    border: solid 4px #fff;
+    border-radius: 2em;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 5em;
+    display: inline-block;
+}
+
+.big-button:hover
+{
+    transition-duration: 0.25s;
+    background-color: #ff8000;
+    border: solid 4px #545454;
+}
+
+.big-button a
+{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Header */
+header
+{
+    height: 6.5em;
+    background: #ff8000;
+    font-family: 'Lato', sans-serif;
+    border-bottom: #545454 4px solid;
+    padding: 0 0 0 2%;
+}
+
+#branding img
+{
+    height: 90px;
+    width: 160px;
+    float: left;
+    margin: 0;
+}
+
+header nav
+{
+    float: right;
+    margin: 0;
+}
+
+header a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+header li
+{
+    float: left;
+    display: inline;
+    padding: 0;
+    margin: 2.5em 2.5em 0 0;
+}
+
+header .current a
+{
+    color: #545454;
+    text-decoration: underline;
+}
+
+header a:hover
+{
+    color: #ddd;
+}
+
+header .current button
+{
+    color: #545454;
+    text-decoration: underline;
+    border: #545454 0.2em solid;
+}
+
+#nav-button-container
+{
+    padding: 0;
+    margin: -1em 0 0 0;
+}
+
+#nav-button
+{
+    height: 4em;
+    width: 10em;
+    color: #fff;
+    background-color: #ff8000;
+    border: #fff 0.2em solid;
+    border-radius: 2em;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+#nav-button p
+{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#nav-button:hover
+{
+    color: #ddd;
+    border: #ddd 2px solid;
+}
+
+header .current #nav-button
+{
+    color: #545454;
+    border: #545454 0.2em solid;
+}
+
+#progress-bar
+{
+    background-color: #ff8000;
+    height: 2%;
+    width: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+/* Body */
+body
+{
+   font-family: 'Lato', sans-serif;
+   font-size: 15px;
+   line-height: 1.5em;
+   background-color: #fff;
+   padding: 0;
+   margin: 0;
+}
+
+/* Showcase */
+.showcase
+{
+    color: #000;
+    text-align: center;
+    line-height: 4em;
+    background-image: url("../img/LA Silhouette B&W.jfif"); // image from unsplash.com
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.showcase h1
+{
+    font-size: 3.25em;
+    margin-top: 5em;
+}
+
+.showcase p
+{
+    font-size: 1.75em;
+    margin-top: 2em;
+    margin-bottom: 9em;
+}
+
+.about1
+{
+    height: 28em;
+    background-color: #fff;
+    padding: 2em;
+}
+
+.about1 h1
+{
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.about1 p
+{
+    font-size: 20px;
+    text-align: center;
+    line-height: 3em;
+}
+
+.about1 img
+{
+    height: 200px;
+    width: 200px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 12%;
+}
+
+.about2
+{
+    height: 28em;
+    background-color: #ddd;
+    padding: 2em;
+}
+
+.about2 h1
+{
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.about2 p
+{
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    line-height: 3em;
+}
+
+.about2 img
+{
+    height: 200px;
+    width: 200px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 12%;
+}
+
+.get-started
+{
+    height: 24em;
+    border-top: #545454 4px solid;
+    background-image: url("../img/Hands.jfif");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.get-started h1
+{
+    color: #fff;
+    font-size: 1.75em;
+    font-style: italic;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+/*.mission
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mission h1
+{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   line-height: 1.5em;
+   text-align: center;
+}
+
+.mission p
+{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   font-weight: lighter;
+   line-height: 1em;
+   text-align: center;
+   margin-top: 50px;
+}
+*/
+
+#scroll-to-top
+{
+      height: 5em;
+      width: 5em;
+      background: #ff8000;
+      box-shadow: 0 0 0.5em;
+      right: 2em;
+      bottom: 2em;
+      position: fixed;
+      border: none;
+      border-radius: 50%;
+      outline: none;
+      cursor: pointer;
+}
+
+#scroll-to-top img
+{
+    height: 3em;
+    width: 3em;
+    float: center;
+}
+
+#scroll-to-top:hover
+{
+    transition-duration: 0.5s;
+    box-shadow: 0 0 1em;
+}
+
+#scroll-to-top:active
+{
+    transition-duration: 0s;
+    background: #545454;
+    box-shadow: 0 0 0.75em;
+}
+
+/* Footer */
+footer
+{
+    height: 8em;
+    color: #000;
+    background: #ff8000;
+    border-top: #545454 4px solid;
+    text-align: center;
+    padding: none;
+    margin: none;
+}
+
+footer #footer-logo img
+{
+    height:72px;
+    width: 128px;
+    float: left;
+    margin: 0 0 0 2.5em;
+}
+
+footer p
+{
+    font-size: 0.9em;
+    float: left;
+    margin: 5em 0 0 -9em;
+    display: flex;
+}
+
+footer h2
+{
+    color: #000;
+    font-weight: normal;
+    font-size: 1.25em;
+    font-style: italic;
+    margin: 1.5em 0 0 16em;
+}
+
+footer a
+{
+    color: #000;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+footer h1
+{
+    font-size: 2em;
+    float: center;
+    margin-top: 1em;
+}
+
+footer h3
+{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+footer #socials img
+{
+    height: 2em;
+    width: 2em;
+    margin: 0 0.5em 0 0.5em;
+}
+
+footer #socials img:hover
+{
+    filter: brightness(0);
+}
